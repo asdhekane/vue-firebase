@@ -6,12 +6,12 @@ import App from './App.vue'
 import router from './router'
 
 const config = {
-  apiKey: 'AIzaSyAUsmNYvjpXurfksLQiQSA5gfx3ZbSDXXA',
-  authDomain: 'vue-firebase-tutorial-e734f.firebaseapp.com',
-  projectId: 'vue-firebase-tutorial-e734f',
-  storageBucket: 'vue-firebase-tutorial-e734f.firebasestorage.app',
-  messagingSenderId: '240783095064',
-  appId: '1:240783095064:web:98f16aa5dbf804e8805a6d'
+  apiKey: 'YOUR-API_KEY',
+  authDomain: 'domain.firebaseapp.com',
+  projectId: 'vue-firebase-tutorial-xyzw',
+  storageBucket: 'bucket',
+  messagingSenderId: 'msgid',
+  appId: 'appid'
 }
 
 firebase.initializeApp(config)
